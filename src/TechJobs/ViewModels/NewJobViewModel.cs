@@ -15,6 +15,18 @@ namespace TechJobs.ViewModels
         [Display(Name = "Employer")]
         public int EmployerID { get; set; }
 
+        [Required]
+        [Display(Name = "Location")]
+        public int LocationID { get; set; }
+
+        [Required]
+        [Display(Name = "Skill")]
+        public int CoreCompetencyID { get; set; }
+
+        [Required]
+        [Display(Name = "Position Type")]
+        public int PositionTypeId { get; set; }
+
         // TODO #3 - Included other fields needed to create a job,
         // with correct validation attributes and display names.
 
